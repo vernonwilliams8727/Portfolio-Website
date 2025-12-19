@@ -67,6 +67,7 @@ body {
     color: #000000;
     display: flex;
     align-items: center;
+    font-size: 0.80vw;
 }
 
 .two-column-layout {
@@ -154,4 +155,5 @@ body {
     font-size: 0.75vw;
     font-weight: 600;
     padding: 0%;
+
 }
