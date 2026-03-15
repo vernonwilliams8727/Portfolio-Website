@@ -50,7 +50,7 @@ body {
 }
 
 .socials img {
-    width: clamp(20px, 15vw, 36px);
+    width: clamp(15px, 10vw, 30px);
     height: auto;
     object-fit: contain;
 }
@@ -89,10 +89,11 @@ body {
 
 .portfolio-slide{
     display: flex;
-    flex-direction: row;
+    /* stack project sections vertically rather than side-by-side */
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    border: 2px solid #000000
+    border: 2px solid #000000;
 }
 
 .p1{
