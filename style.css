@@ -89,7 +89,6 @@ body {
 
 .portfolio-slide{
     display: flex;
-    /* stack project sections vertically rather than side-by-side */
     flex-direction: column;
     width: 100%;
     height: 100%;
